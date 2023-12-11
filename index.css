@@ -1,0 +1,323 @@
+body {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 7ex;
+    z-index: 999;
+}
+
+.p_l {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 20%;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.arrow_right {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 35px;
+    position: absolute;
+    top: 93%;
+    left: 96%;
+    cursor: pointer;
+}
+
+.p1 {
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%, -50%);
+    font-size: 5ex;
+    width: auto;
+    color: white;
+    white-space: nowrap;
+    z-index: 999;
+}
+
+.p_2 {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 1;
+    width: 1100px;
+    height: 300px;
+    top: 40%;
+    left: 50%;
+    border-radius: 15px;
+}
+
+.p2 {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 1;
+    top: 76%;
+    left: 50%;
+    border-radius: 15px;
+}
+
+.arrow_left {
+    background: transparent;
+    border: none;
+    font-size: 35px;
+    position: absolute;
+    top: 93%;
+    color: white;
+    width: auto;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.p3 {
+    position: absolute;
+    font-size: 5ex;
+    left: 10%;
+}
+
+.p_3 {
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    left: 10%;
+    top: 17%;
+    border-radius: 15px;
+}
+
+.p_4 {
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    left: 47%;
+    top: 17%;
+    border-radius: 15px;
+}
+
+.p4 {
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    font-size: 5ex;
+}
+
+.p5 {
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    width: 550px;
+}
+
+.p6 {
+    left: 50%;
+    position: absolute;
+    font-size: 5ex;
+    top: 60%;
+}
+
+.p7 {
+    left: 50%;
+    position: absolute;
+    top: 70%;
+    width: 550px;
+}
+
+.p8 {
+    position: absolute;
+    font-size: 5ex;
+    left: 10%;
+}
+
+.p9 {
+    position: absolute;
+    left: 10%;
+    top: 13%;
+}
+
+.p10 {
+    position: absolute;
+    left: 10%;
+    top: 33%;
+    font-size: 5ex;
+}
+
+.p11 {
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    width: 550px;
+}
+
+.p12 {
+    position: absolute;
+    left: 50%;
+    font-size: 5ex;
+    top: 33%;
+}
+
+.p13 {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+}
+
+.p14 {
+    position: absolute;
+    font-size: 5ex;
+    left: 10%;
+}
+
+.p15 {
+    position: absolute;
+    font-size: 5ex;
+    left: 10%;
+    top: 20%;
+}
+
+.p16 {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    width: 400px;
+}
+
+.p17 {
+    position: absolute;
+    font-size: 5ex;
+    left: 40%;
+    top: 20%;
+}
+
+.p18 {
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    width: 400px;
+}
+
+.p19 {
+    position: absolute;
+    left: 70%;
+    top: 20%;
+    font-size: 5ex;
+}
+
+.p20 {
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    width: 400px;
+}
+
+.p21 {
+    position: absolute;
+    font-size: 5ex;
+    left: 10%;
+}
+
+.p_5 {
+    position: absolute;
+    left: 10%;
+    top: 17%;
+    width: 550px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.p_6 {
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    border-radius: 15px;
+    left: 47%;
+    top: 17%;
+}
+
+.p22 {
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    font-size: 4ex;
+}
+
+.p23 {
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    width: 500px;
+}
+
+.p24 {
+    position: absolute;
+    left: 47%;
+    top: 60%;
+    font-size: 4ex;
+}
+
+.p25 {
+    position: absolute;
+    left: 47%;
+    top: 70%;
+    width: 500px;
+}
+
+.p26 {
+    position: absolute;
+    font-size: 5ex;
+    left: 10%;
+}
+
+.p_7 {
+    position: absolute;
+    left: 10%;
+    top: 17%;
+    width: 550px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.p_8 {
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    border-radius: 15px;
+    left: 47%;
+    top: 17%;
+}
+
+.p27 {
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    font-size: 4ex;
+}
+
+.p28 {
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    width: 500px;
+}
+
+.p29 {
+    position: absolute;
+    left: 47%;
+    top: 60%;
+    font-size: 4ex;
+}
+
+.p30 {
+    position: absolute;
+    left: 47%;
+    top: 70%;
+    width: 500px;
+}
