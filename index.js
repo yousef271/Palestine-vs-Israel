@@ -75,16 +75,12 @@ function getOperatingSystem() {
 const operatingSystem = getOperatingSystem();
 
 if (operatingSystem === "iOS") {
-  console.log("iOS section");
   document.getElementById("iphone_operating_section").style.display = "block";
   document.getElementById("windows").style.display = "none";
 } else if (operatingSystem === "Android") {
-  // Display Android-specific section
-  console.log("Android section");
+    document.getElementById("iphone_operating_section").style.display = "block";
+    document.getElementById("windows").style.display = "none";
 } else if (operatingSystem === "Xiaomi") {
-  // Display Xiaomi-specific section
-  console.log("Xiaomi section");
-} else {
-  // Display default section or handle unknown OS
-  console.log("Unknown or unsupported operating system");
+    document.getElementById("iphone_operating_section").style.display = "block";
+    document.getElementById("windows").style.display = "none";
 }
