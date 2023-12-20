@@ -11,7 +11,7 @@ body {
     left: 30%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 7ex;
+    font-size: auto;
     z-index: 999;
 }
 
@@ -20,7 +20,7 @@ body {
     z-index: 1;
     left: 50%;
     top: 20%;
-    height: 500px;
+    height: auto;
     border-radius: 15px;
 }
 
@@ -28,11 +28,12 @@ body {
     background: transparent;
     color: white;
     border: none;
-    font-size: 35px;
+    font-size: auto;
     position: absolute;
-    top: 93%;
     left: 96%;
     cursor: pointer;
+    text-align: right;
+    bottom: 0;
 }
 
 .p1 {
@@ -40,7 +41,7 @@ body {
     left: 50%;
     top: 2%;
     transform: translate(-50%, -50%);
-    font-size: 5ex;
+    font-size: auto;
     width: auto;
     color: white;
     white-space: nowrap;
@@ -51,11 +52,11 @@ body {
     transform: translate(-50%, -50%);
     position: absolute;
     z-index: 1;
-    width: 1100px;
-    height: 300px;
     top: 40%;
     left: 50%;
     border-radius: 15px;
+    width: auto;
+    height: auto
 }
 
 .p2 {
@@ -70,57 +71,57 @@ body {
 .arrow_left {
     background: transparent;
     border: none;
-    font-size: 35px;
+    font-size: autoo;
     position: absolute;
-    top: 93%;
     color: white;
     width: auto;
     white-space: nowrap;
     cursor: pointer;
+    text-align: left, bottom;
 }
 
 .p3 {
     position: absolute;
-    font-size: 5ex;
+    font-size: autoo;
     left: 10%;
 }
 
 .p_3 {
     position: absolute;
-    width: 550px;
-    height: 300px;
     left: 10%;
     top: 17%;
     border-radius: 15px;
+    width: auto;
+    height: auto
 }
 
 .p_4 {
     position: absolute;
-    width: 550px;
-    height: 300px;
     left: 47%;
     top: 17%;
     border-radius: 15px;
+    width: auto;
+    height: auto
 }
 
 .p4 {
     position: absolute;
     left: 10%;
     top: 60%;
-    font-size: 5ex;
+    font-size: autoo;
 }
 
 .p5 {
     position: absolute;
     left: 10%;
     top: 70%;
-    width: 550px;
+    width: auto;
 }
 
 .p6 {
     left: 50%;
     position: absolute;
-    font-size: 5ex;
+    font-size: autoo;
     top: 60%;
 }
 
@@ -128,12 +129,12 @@ body {
     left: 50%;
     position: absolute;
     top: 70%;
-    width: 550px;
+    width: auto;
 }
 
 .p8 {
     position: absolute;
-    font-size: 5ex;
+    font-size: autoo;
     left: 10%;
 }
 
@@ -147,20 +148,20 @@ body {
     position: absolute;
     left: 10%;
     top: 33%;
-    font-size: 5ex;
+    font-size: autoo;
 }
 
 .p11 {
     position: absolute;
     left: 10%;
     top: 45%;
-    width: 550px;
+    width: auto;
 }
 
 .p12 {
     position: absolute;
     left: 50%;
-    font-size: 5ex;
+    font-size: autoo;
     top: 33%;
 }
 
@@ -172,13 +173,13 @@ body {
 
 .p14 {
     position: absolute;
-    font-size: 5ex;
+    font-size: autoo;
     left: 10%;
 }
 
 .p15 {
     position: absolute;
-    font-size: 5ex;
+    font-size: autoo;
     left: 10%;
     top: 20%;
 }
@@ -187,12 +188,12 @@ body {
     position: absolute;
     left: 10%;
     top: 35%;
-    width: 400px;
+    width: auto;
 }
 
 .p17 {
     position: absolute;
-    font-size: 5ex;
+    font-size: autoo;
     left: 40%;
     top: 20%;
 }
@@ -201,26 +202,26 @@ body {
     position: absolute;
     left: 40%;
     top: 35%;
-    width: 400px;
+    width: auto;
 }
 
 .p19 {
     position: absolute;
     left: 70%;
     top: 20%;
-    font-size: 5ex;
+    font-size: autoo;
 }
 
 .p20 {
     position: absolute;
     top: 35%;
     left: 70%;
-    width: 400px;
+    width: auto;
 }
 
 .p21 {
     position: absolute;
-    font-size: 5ex;
+    font-size: autoo;
     left: 10%;
 }
 
@@ -228,15 +229,15 @@ body {
     position: absolute;
     left: 10%;
     top: 17%;
-    width: 550px;
-    height: 300px;
+    width: auto;
+    height: auto;
     border-radius: 15px;
 }
 
 .p_6 {
     position: absolute;
-    width: 550px;
-    height: 300px;
+    width: auto;
+    height: auto;
     border-radius: 15px;
     left: 47%;
     top: 17%;
@@ -246,33 +247,33 @@ body {
     position: absolute;
     left: 10%;
     top: 60%;
-    font-size: 4ex;
+    font-size: auto;
 }
 
 .p23 {
     position: absolute;
     left: 10%;
     top: 70%;
-    width: 500px;
+    width: auto;
 }
 
 .p24 {
     position: absolute;
     left: 47%;
     top: 60%;
-    font-size: 4ex;
+    font-size: auto;
 }
 
 .p25 {
     position: absolute;
     left: 47%;
     top: 70%;
-    width: 500px;
+    width: auto;
 }
 
 .p26 {
     position: absolute;
-    font-size: 5ex;
+    font-size: auto;
     left: 10%;
 }
 
@@ -280,15 +281,15 @@ body {
     position: absolute;
     left: 10%;
     top: 17%;
-    width: 550px;
-    height: 300px;
+    width: auto;
+    height: auto;
     border-radius: 15px;
 }
 
 .p_8 {
     position: absolute;
-    width: 550px;
-    height: 300px;
+    width: auto;
+    height: auto;
     border-radius: 15px;
     left: 47%;
     top: 17%;
@@ -298,26 +299,26 @@ body {
     position: absolute;
     left: 10%;
     top: 60%;
-    font-size: 4ex;
+    font-size: auto;
 }
 
 .p28 {
     position: absolute;
     left: 10%;
     top: 70%;
-    width: 500px;
+    width: auto;
 }
 
 .p29 {
     position: absolute;
     left: 47%;
     top: 60%;
-    font-size: 4ex;
+    font-size: auto;
 }
 
 .p30 {
     position: absolute;
     left: 47%;
     top: 70%;
-    width: 500px;
+    width: auto;
 }
