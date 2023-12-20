@@ -75,12 +75,15 @@ function getOperatingSystem() {
 const operatingSystem = getOperatingSystem();
 
 if (operatingSystem === "iOS") {
+  console.log("this is an iphone");
   document.getElementById("iphone_operating_section").style.display = "block";
   document.getElementById("windows").style.display = "none";
 } else if (operatingSystem === "Android") {
+    console.log("this is an Android");
     document.getElementById("iphone_operating_section").style.display = "block";
     document.getElementById("windows").style.display = "none";
 } else if (operatingSystem === "Xiaomi") {
+    console.log("this is an Xiaomi");
     document.getElementById("iphone_operating_section").style.display = "block";
     document.getElementById("windows").style.display = "none";
 }
